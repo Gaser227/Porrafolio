@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body{
+    /*background: url(../img/tierra.jpg);
+    background-repeat: repeat;*/
+    background-color: brown;
+}
+
+header{
+    /*background: url(../img/);
+    background-repeat: repeat;*/
+    background-color: steelblue;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 83px;
+    /*background: rgba(255, 255, 0, .5);*/
+}
+#logo{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 188px;
+    height: 47px;
+    /*background: rgba(0, 0, 255, .5);*/
+}
+#logo img{
+    position: absolute;
+    width: 180px;
+    height: 55px;
+}
+
+nav{
+    /*background: url(../img/);
+    background-repeat: repeat;*/
+    background-color: blue;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    /*background: rgba(255, 0, 0, .5);*/
+    border-bottom: 1px solid #bcd1cb;
+}
+nav ul{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 45px;
+    /*background: rgba(0, 255, 0, .5);*/
+}
+nav ul li{
+    float: left;
+    width: 124px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    /*background: rgba(0, 0, 255, .5);*/
+    border-right: 1px solid #bcd1cb;
+}
+
+#slide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 301px;
+    /*background: rgba(0, 0, 255, .5);*/
+}
+#slide ul li img{
+    position: absolute;
+    width: 1000px;
+    height: 301px;
+}
+
+#botoneraSlide{
+    /*background: url(../img/);
+    background-repeat: repeat;*/
+    background-color: aqua;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 26px;
+    /*background: rgba(70, 255, 0, .5);*/
+}
+#botoneraSlide ul{
+    position: relative;
+    margin: auto;
+    width: 100px;
+    height: 26px;
+    /*background: rgba(52, 219, 117, .5);*/
+}
+#botoneraSlide ul li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #232d80;
+    border: 3px solid white;
+    margin: 3px 2px;
+}
+
+section#inicio{
+    background-color: white;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+    /*background: rgba(0, 255, 0, .5);*/
+}
+section#inicio ul li{
+    float: left;
+    width: 333px;
+    height: 300px;
+    /*background: rgba(0, 255, 255, .5);*/
+}
+section#inicio ul li h1{
+    margin: 23px 27px;
+    font-weight: 100;
+    font-size: 25px;
+}
+section#inicio ul li p{
+    margin: 23px 28px;
+    font-size: 15px;
+}
+section#inicio ul li img{
+    margin: 1px 29px;
+    width: 273px;
+    height: 83px;
+    background: silver;
+}
+
+#bottom{
+    /*background: url(../img/);
+    background-repeat: repeat;*/
+    background-color: darkcyan;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 190px;
+    /*background: rgba(0, 0, 255, .5);*/
+}
+#bottom ul li{
+    float: left;
+    width: 250px;
+    height: 180px;
+    /*background: rgba(0, 0, 255, .5);*/
+}
+#bottom ul li ol{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    width: 190px;
+    height: 80px;
+    /*background: rgba(255, 0, 0, .5);*/
+}
+#bottom ul li ol li{
+    height: 20px;
+    text-align: left;
+    list-style: inside;
+    font-size: 15px;
+    color: white;
+}
+#bottom ul li h1{
+    margin: 13px 18px;
+    color: coral;
+    font-size: 18px;
+    font-weight: 100;
+}
+#bottom ul li img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 95px;
+    height: 95px;
+    background: silver;
+    border: 4px solid white;
+}
+#bottom ul li ul{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 200px;
+    height: 40px;
+    /*background: rgba(255, 0, 255, .5);*/
+}
+#bottom ul li ul li{
+    float: left;
+    width: 40px;
+    height: 32px;
+    border-radius: 100%;
+    background: white;
+    margin: 5px;
+}
+#bottom ul li ul li:first-child{
+    background: url("../img/icono.png");
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(2){
+    background: url("../img/icono.png");
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(3){
+    background: url("../img/icono.png");
+    background-size: cover;
+}
+#bottom ul li ul li:last-child{
+    background: url("../img/icono.png");
+    background-size: cover;
+}
+#bottom ul li ul li a{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+footer{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 62px;
+    /*background: rgba(255, 0, 0, .5);*/
+    text-align: center;
+    color: white;
+    line-height: 62px;
+    font-size: 15px;
+    background: black;
+}
+
+section#quienesSomos{
+    background-color: white;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+}
+section#quienesSomos h1{
+    position: relative;
+    top: 15px;
+    left: 27px;
+    color: #1f1d21;
+    font-weight: 100;
+}
+section#quienesSomos hr{
+    position: relative;
+    top: 20px;
+    width: 950px;
+    margin: auto;
+    border: 1px solid #c6c6c6;
+}
+section#quienesSomos p{
+    position: relative;
+    top: 40px;
+    width: 950px;
+    margin: auto;
+    color: #414042;
+    text-align: justify;
+}
+section#quienesSomos img{
+    float: left;
+    width: 272px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+section#sevicios{
+    background-color: white;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+}
+section#sevicios #cajaServicios{
+    position: relative;
+    width: 935px;
+    top: 18px;
+    height: 262px;
+    margin: auto;
+    /*background: rgba(255, 0, 0, 0.5);*/
+    background: white;
+    box-shadow: 0px 0px 30px #222;
+}
+section#sevicios #cajaServicios ul#lista{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    width: 151px;
+    height: 220px;
+}
+section#sevicios #cajaServicios ul#lista li{
+    width: 151px;
+    height: 72px;
+    margin: 2px 0;
+    cursor: pointer;
+}
+section#sevicios #cajaServicios ul#visor{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 732px;
+    height: 220px;
+    margin: 2px 0;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+section#sevicios #cajaServicios ul#visor li{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 732px;
+    height: 220px;
+}
+section#sevicios #cajaServicios ul#visor li h1{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+    color: #4d545a;
+    font-weight: 100;
+}
+section#sevicios #cajaServicios ul#visor li p{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 97.3%;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+section#contacto{
+    background-color: white;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+    background: white;
+}
+section#contacto form{
+    position: relative;
+    margin: auto;
+    width: 910px;
+    height: 232px;
+    top: 32px;
+    /*background: rgba(255, 0, 0, 0.5);*/
+    background: white;
+}
+section#contacto form input#nombre{
+    position: absolute;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0;
+}
+section#contacto form input#email{
+    position: absolute;
+    top: 81px;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0;
+}
+section#contacto form input#asunto{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0;
+}
+section#contacto form #mensaje{
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    width: 581px;
+    height: 128px;
+    background: #dce9d7;
+    border: 0;
+}
+section#contacto form input#enviar{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    right: 0;
+    width: 604px;
+    height: 69px;
+    background: #1a1d20;
+    border: 0;
+    color: white;
+}
